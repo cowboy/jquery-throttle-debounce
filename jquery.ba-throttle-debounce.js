@@ -75,7 +75,7 @@
   // rate-limit execution of a function to a single time, see the
   // <jQuery.debounce> method.
   // 
-  // In this visualization, | is a debounced-function call and X is the actual
+  // In this visualization, | is a throttled-function call and X is the actual
   // callback execution:
   // 
   // > Throttled with `no_trailing` specified as false or unspecified:
@@ -84,7 +84,7 @@
   // > 
   // > Throttled with `no_trailing` specified as true:
   // > ||||||||||||||||||||||||| (pause) |||||||||||||||||||||||||
-  // > X    X    X    X    X             X    X    X    X    X     
+  // > X    X    X    X    X             X    X    X    X    X
   // 
   // Usage:
   // 
