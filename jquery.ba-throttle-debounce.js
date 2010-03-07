@@ -161,6 +161,7 @@
         exec();
       }
       
+      // Clear any existing timeout.
       timeout_id && clearTimeout( timeout_id );
       
       if ( debounce_mode === undefined && elapsed > delay ) {
