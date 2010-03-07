@@ -1,7 +1,7 @@
 # jQuery jQuery throttle / debounce: Sometimes, less is more! #
 [http://benalman.com/projects/jquery-throttle-debounce-plugin/](http://benalman.com/projects/jquery-throttle-debounce-plugin/)
 
-Version: 1.0, Last updated: 3/6/2010
+Version: 1.1, Last updated: 3/7/2010
 
 jQuery throttle / debounce allows you to rate-limit your functions in multiple useful ways. Passing a delay and callback to `$.throttle` returns a new function that will execute no more than once every `delay` milliseconds. Passing a delay and callback to `$.debounce` returns a new function that will execute only once, either at the very beginning or very end of a group of sequential calls.
 
@@ -36,7 +36,8 @@ Internet Explorer 6-8, Firefox 2-3.6, Safari 3-4, Chrome, Opera 9.6-10.1.
 
 ## Release History ##
 
-1.0   - (3/3/2010) Initial release as a stand-alone project. Migrated over from jquery-misc repo v0.4 to jquery-throttle repo v1.0, added the no_trailing throttle parameter and debounce functionality.  
+1.1 - (3/7/2010) Fixed a bug in <jQuery.throttle> where trailing callbacks executed later than they should. Reworked a fair amount of internal logic as well.  
+1.0 - (3/6/2010) Initial release as a stand-alone project. Migrated over from jquery-misc repo v0.4 to jquery-throttle repo v1.0, added the no_trailing throttle parameter and debounce functionality.  
 
 
 ## License ##
