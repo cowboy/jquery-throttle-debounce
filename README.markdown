@@ -3,7 +3,7 @@
 
 Version: 1.1, Last updated: 3/7/2010
 
-jQuery throttle / debounce allows you to rate-limit your functions in multiple useful ways. Passing a delay and callback to `$.throttle` returns a new function that will execute no more than once every `delay` milliseconds. Passing a delay and callback to `$.debounce` returns a new function that will execute only once, either at the very beginning or very end of a group of sequential calls.
+jQuery throttle / debounce allows you to rate-limit your functions in multiple useful ways. Passing a delay and callback to `$.throttle` returns a new function that will execute no more than once every `delay` milliseconds. Passing a delay and callback to `$.debounce` returns a new function that will execute only once, coalescing multiple sequential calls into a single execution at either the very beginning or end.
 
 Visit the [project page](http://benalman.com/projects/jquery-throttle-debounce-plugin/) for more information and usage examples!
 
