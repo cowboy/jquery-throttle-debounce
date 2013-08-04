@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>jQuery.ba-throttle-debounce</id>
+    <version>1.1.0</version>
+    <authors>Ben Alman</authors>
+    <owners>LCHarold</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>jQuery throttle / debounce allows you to rate-limit your functions in multiple useful ways. This package installs the files into the Scripts folder (MVC default).</summary>
+    <description>jQuery throttle / debounce allows you to rate-limit your functions in multiple useful ways. Passing a delay and callback to $.throttle returns a new function that will execute no more than once every delay milliseconds. Passing a delay and callback to $.debounce returns a new function that will execute only once, coalescing multiple sequential calls into a single execution at either the very beginning or end.</description>
+    <tags>jquery throttle debounce</tags>
+    <projectUrl>http://benalman.com/projects/jquery-throttle-debounce-plugin/</projectUrl>
+    <licenseUrl>http://benalman.com/about/license/</licenseUrl>
+    <copyright>Copyright (c) 2010 "Cowboy" Ben Alman</copyright>
+  </metadata>
+   <files>
+    <file src="content\*.*" target="content\Scripts\" />
+  </files>
+</package>
