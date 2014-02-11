@@ -1,0 +1,12 @@
+{
+  "name": "jquery.throttle-debounce",
+  "main": "jquery.ba-throttle-debounce.js",
+  "version": "1.1.0",
+  "ignore": [
+    "unit",
+    "shared",
+    "examples",
+    "README.markdown",
+    "docs"
+  ]
+}
