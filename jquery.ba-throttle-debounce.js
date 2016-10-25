@@ -245,8 +245,8 @@
   
   $.debounce = function( delay, at_begin, callback ) {
     return callback === undefined
-      ? jq_throttle( delay, at_begin, false )
-      : jq_throttle( delay, callback, at_begin !== false );
+      ? jq_throttle(delay, false, at_begin, true)
+      : jq_throttle(delay, at_begin !== false, callback, true);
   };
   
 })(this);
