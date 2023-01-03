@@ -60,7 +60,7 @@
 // the `Cowboy` namespace. Usage will be exactly the same, but instead of
 // $.method() or jQuery.method(), you'll need to use Cowboy.method().
 
-(function(window,undefined){
+(function(window){
   '$:nomunge'; // Used by YUI compressor.
   
   // Since jQuery really isn't required for this plugin, use `jQuery` as the

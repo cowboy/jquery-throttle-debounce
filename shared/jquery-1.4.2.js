@@ -13,7 +13,7 @@
  *
  * Date: Sat Feb 13 22:33:48 2010 -0500
  */
-(function( window, undefined ) {
+(function(window) {
 
 // Define a local copy of jQuery
 var jQuery = function( selector, context ) {
